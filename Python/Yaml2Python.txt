@@ -1,0 +1,17 @@
+#PyYAML is a YAML parser and emitter for Python.
+
+pip3 install pyyaml
+
+#Loading YAML from a file
+
+# import the yaml module
+import yaml
+
+# load the yaml file
+document = open('document.yaml', 'r')
+
+# and finally parse the file
+parsed = yaml.load(document)
+#You can simply revert it back to a YAML format by doing:
+
+print(yaml.dump(parsed))

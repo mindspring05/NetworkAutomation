@@ -1,0 +1,13 @@
+
+# List definition : Option 1
+---
+# A list of tasty fruits
+  - Apple
+  - Orange
+  - Strawberry
+  - Mango
+
+
+# List definition : Option 2
+--- # A list of tasty fruits
+    [Apple,Orange,Strawberry,Mango]

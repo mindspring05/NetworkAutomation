@@ -1,0 +1,10 @@
+create_key: yes
+needs_agent: no
+knows_oop: True
+likes_emacs: TRUE
+uses_cvs: false
+
+Regexp:
+ y|Y|yes|Yes|YES|n|N|no|No|NO
+|true|True|TRUE|false|False|FALSE
+|on|On|ON|off|Off|OFF
